@@ -1,0 +1,25 @@
+.locations {
+  &-title {
+    margin-bottom: 20px;
+  }
+
+  &-description {
+    margin-bottom: 50px;
+  }
+
+  &-blocks {
+    margin-bottom: 15px;
+  }
+
+  &-load-btn {
+    margin-bottom: 40px;
+
+    a {
+      padding: 10px 20px;
+      border: 2px solid $accent-color;
+      border-radius: 25px;
+      color: $accent-color;
+      font-weight: 600;
+    }
+  }
+}

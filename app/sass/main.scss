@@ -7,6 +7,12 @@
 @import 'base/custom-settings';
 
 /*
+  Components
+*/
+@import 'components/location-block';
+
+/*
   Partials
 */
 @import 'partials/header';
+@import 'partials/locations';

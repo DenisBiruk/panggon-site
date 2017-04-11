@@ -1,0 +1,117 @@
+header {
+  background-color: $primary-color;
+  color: $white;
+
+  .header-top {
+    margin-top: 55px;
+    margin-bottom: 110px;
+
+    nav {
+      ul {
+        li {
+          display: inline-block;
+          
+          a {
+            color: white;
+
+            &:hover {
+              color: $accent-color;
+            }
+          }
+
+          .sign-up {
+            padding: 10px 20px;
+            margin-left: 20px;
+            border: 2px solid $white;
+            border-radius: 20px;
+
+            &:hover {
+              border-color: $accent-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .header-main {
+    &-title,
+    &-text {
+      margin-bottom: 40px;
+    }
+
+    form {
+      padding: 30px;
+      margin-bottom: 140px;
+      border-radius: 10px;
+      background: $white;
+      box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+      
+      label {
+        display: block;
+        color: $captions-text-color;
+        margin-bottom: 10px;
+
+        i {
+          color: $accent-color;
+          margin-right: 5px;
+        }
+      }
+
+      input{
+        width: 90%;
+        padding: 10px 15px;
+        color: $text-color;
+        border: none;
+        border-radius: 3px;
+        background: $input-background;
+
+        &[type="submit"] {
+          width: 100%;
+          margin-top: 31px;
+          background: $accent-color;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    .header-top {
+      margin-top: 20px;
+      margin-bottom: 10px;
+
+      .logo {
+        text-align: center;
+      }
+
+      nav {
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: center;
+
+        ul {
+          li {
+            .sign-up {
+              padding: none;
+              border: none;
+            }
+          }
+        }
+      }
+    }
+    
+    .header-main {
+      form {
+        margin-bottom: 20px;
+        
+        input {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

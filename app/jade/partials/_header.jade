@@ -1,0 +1,37 @@
+header.container-fluid
+  .header-content.container
+    .header-top.row
+      .logo.col-xs-12.col-sm-6.text-left
+        a(href="#")
+          img(src="img/logo.png", alt="Panggon")
+      nav.col-xs-12.col-sm-6.text-right
+        ul.list-unstyled
+          li
+            a Sign In
+          li
+            a.sign-up Sign Up
+    .header-main.row.text-center
+      h1.header-main-title.col-lg-12 Lorem ipsum dolor sit amet?
+      p.header-main-text.col-lg-12 
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        br
+        | In incidunt, facere reiciendis
+      form.col-sm-12.col-md-8.col-md-offset-2.text-left
+        fieldset.row
+          .col-xs-12.col-sm-3
+            label
+              i.fa.fa-map-marker
+              span Address
+            input(type="text", placeholder="Type address")
+          .col-xs-12.col-sm-3
+            label
+              i.fa.fa-calendar
+              span Date
+            input(type="date", placeholder="Type date")
+          .col-xs-12.col-sm-3
+            label
+              i.fa.fa-users
+              span Persons
+            input(type="text", placeholder="Type persons")
+          .col-xs-12.col-sm-3
+            input(type="submit", value="Submit")

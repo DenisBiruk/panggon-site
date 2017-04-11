@@ -1,4 +1,6 @@
 .locations {
+  margin-bottom: 70px;
+  
   &-title {
     margin-bottom: 20px;
   }
@@ -12,8 +14,6 @@
   }
 
   &-load-btn {
-    margin-bottom: 40px;
-
     a {
       padding: 10px 20px;
       border: 2px solid $accent-color;

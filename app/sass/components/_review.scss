@@ -1,0 +1,26 @@
+.review {
+  img {
+    border-radius: 50%;
+  }
+
+  blockquote {
+    padding: 0;
+    border: none;
+
+    p, cite {
+      font-size: 14px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    cite {
+      font-style: normal;
+
+      span {
+        color: $accent-color;
+      }
+    }
+  }
+}

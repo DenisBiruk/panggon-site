@@ -1,6 +1,9 @@
 header {
   margin-bottom: 50px;
-  background-color: $primary-color;
+  // background-color: $primary-color;
+  background-image: url('../img/header-background.jpg');
+  background-size: cover;
+  background-position: top;
   color: $white;
 
   .header-top {

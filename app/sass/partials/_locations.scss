@@ -20,6 +20,12 @@
       border-radius: 25px;
       color: $accent-color;
       font-weight: 600;
+      transition: all 0.2s ease;
+
+      &:hover {
+        color: $btn-hover-color;
+        border-color: $btn-hover-color;
+      }
     }
   }
 }

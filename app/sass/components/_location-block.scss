@@ -46,8 +46,13 @@
       padding: 10px 35px;
       margin-right: 15px;
       color: $white;
-      border-radius: 10px;
+      border-radius: 5px;
       background: $accent-color;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        background-color: $btn-hover-color;  
+      }
     }
 
     &-reviews {

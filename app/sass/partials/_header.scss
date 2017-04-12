@@ -17,6 +17,7 @@ header {
           
           a {
             color: white;
+            transition: color 0.2s ease-in-out;
 
             &:hover {
               color: $accent-color;
@@ -28,6 +29,7 @@ header {
             margin-left: 20px;
             border: 2px solid $white;
             border-radius: 20px;
+            transition: all 0.2s ease-in-out;
 
             &:hover {
               border-color: $accent-color;
@@ -75,6 +77,11 @@ header {
           margin-top: 31px;
           background: $accent-color;
           color: $white;
+          transition: all 0.2s ease;
+
+          &:hover {
+            background-color: $btn-hover-color;
+          }
         }
       }
     }
